@@ -12,6 +12,12 @@
         "homepage": "http://www.lucasduarte.dev",
         "role": "Developer"
     }],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/laravel-shift/laravel-translatable.git"
+        }
+    ],
     "keywords": [
         "laravel",
         "countries",
@@ -31,7 +37,7 @@
     "require": {
         "php": "^8.0|^8.1|^8.2",
         "laravel/framework": "^10.0|^11.0|^12.0|dev-master",
-        "astrotomic/laravel-translatable": "^11.8",
+        "astrotomic/laravel-translatable": "^11.8|dev-l12-compatibility",
         "spatie/laravel-package-tools": "^1.16.0"
     },
     "require-dev": {
